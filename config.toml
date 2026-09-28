@@ -1,0 +1,11 @@
+[paths]
+data_dir = "data"
+output_dir = "outputs"
+
+[benchmark]
+device = "cpu"
+chunk_token_budget = 180
+parsers = ["paddle", "mineru", "docling"]
+chunkers = ["hierarchical", "sectional", "paragraph", "heading"]
+# Optional subset of fixture stems; empty means all scanned documents.
+documents = []

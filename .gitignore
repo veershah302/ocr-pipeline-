@@ -1,0 +1,22 @@
+# Project-local virtual environment and caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+.mypy_cache/
+.ruff_cache/
+
+# Generated benchmark data and outputs (reproducible via CLI)
+data/
+outputs/
+
+# Model weights/caches downloaded on first parser use
+.paddlex/
+.cache/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

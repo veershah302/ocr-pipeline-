@@ -1,0 +1,12 @@
+# Install with Python 3.12 in a project-local venv.
+reportlab>=4.2,<5
+PyMuPDF>=1.24,<2
+Pillow>=10,<12
+matplotlib>=3.9,<4
+pytest>=8,<9
+
+# Parser runtimes. First use downloads their models.
+paddlepaddle>=3.0,<4
+paddleocr[doc-parser]>=3.0,<4
+mineru>=4.0,<5
+docling>=2.0,<3
